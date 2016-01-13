@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	border: 1px solid transparent;
+}
+
+canvas {
+	height: 100%;
+	width: 100%;
+}
+
+html { 
+  background: url("../bh_background.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.color-wrapper {
+	color: #fff;
+}
+
+#box {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+#center-frame {
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -150%);
+}
+
+#title-name {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	letter-spacing: 3px;
+}
+
+
+
