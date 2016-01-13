@@ -28,7 +28,7 @@ html {
 }
 
 #center-frame {
-	position: fixed;
+	position: absolute;
   	top: 35%;
   	left: 50%;
   	padding: 10px;
